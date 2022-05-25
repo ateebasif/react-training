@@ -7,10 +7,12 @@ import About from "./components/About";
 import Nav from "./components/Nav";
 import NotFound from "./components/NotFound";
 
+import "./App.css";
+
 function App() {
   return (
     <Router>
-      <Nav />
+      {/* <Nav /> */}
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
